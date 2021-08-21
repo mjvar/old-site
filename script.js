@@ -14,6 +14,27 @@ function toggleProjectPopup(proj){
 				<p>
 					AI Got Hands is a reinforcement learning agent that plays the fighting game FightingICE. In addition to fine-tuning the agent's reward function to achieve a 70% winrate against similar agents, I qualitatively analyzed the agent's behavior to explore the potential of game AI as a tutorial tool for game-playing.
 				</p>`;
+	}else if(proj == "eury"){
+		popCont.innerHTML = `
+				<div class="popup-img">
+					<img src="media/eury.png">
+				</div>
+				<h1>Eurhythmce</h1>
+				<h5><a href="https://hatimb00.itch.io/eurhythmce" target="_blank" class="codelink">link</a></h5>
+				<p>
+					Eurhythmce is a rhythm/puzzle game based on Greek mythology. Play as Eurydice as you stay on beat while you make the right moves and follow Orpheus out of hell! I served as lead Unity developer and level designer on the project.
+				</p>`;
+	}
+	else if(proj == "post"){
+		popCont.innerHTML = `
+				<div class="popup-img">
+					<img src="media/post.png">
+				</div>
+				<h1>postcARds</h1>
+				<h5><a href="https://drive.google.com/file/d/119tV02MkFUYJfiSIOOA8xK15sLlA00Ks/view?usp=sharing" target="_blank" class="projlink">video</a></h5>
+				<p>
+					postcARds is an app developed in collaboration with the Museum für Kommunikation Berlin to celebrate the history of postcards as a medium of communication. The app turns users' phones into 3D paintbrushes in order to personalize postcards from the museum's collection. I served as lead Unity developer on the project.
+				</p>`;
 	}else if(proj == "sonar-dj"){
 		popCont.innerHTML = `
 				<div class="popup-img">
@@ -32,7 +53,7 @@ function toggleProjectPopup(proj){
 				<h1>Bullet Time</h1>
 				<h5><a href="https://infairvar.itch.io/bullet-time" target="_blank" class="projlink">link</a> | <a href="https://github.com/mjvar/intro-to-interactive-media/tree/master/midtermProject" target="_blank" class="codelink">code</a></h5>
 				<p>
-					Bullet Time is a fast-paced bullet hell game where you can slow time. You pilot a ship (WASD/arrows) towards a portal, while dodging an onslaught of bullets from enemies. You can also use Slow (SPACE) to more precisely control your ship. This consumes a limited Slow Meter that slows both the bullets and your ship, allowing you to perfectly time and execute tight maneuvers. If you hold the button for too long, though, your Slow Meter depletes, which fast forwards the game back to normal speed. <br><br> I've always been fascinated by hard games, even though I'm not very good at them. What entices me about them is the feeling of invincibility one gets after failing a level over and over, and then succeeding in the end. In Bullet Time, I strove to make the game feel difficult but also satisfying.
+					Bullet Time is a fast-paced bullet hell game where you can slow time. You pilot a ship (WASD/arrows) towards a portal, while dodging an onslaught of bullets from enemies. You can also use Slow (SPACE) to more precisely control your ship. This consumes a limited Slow Meter that slows both the bullets and your ship, allowing you to perfectly time and execute tight maneuvers. If you hold the button for too long, though, your Slow Meter depletes, which fast forwards the game back to normal speed.
 				</p>`;
 	}else if(proj == "map"){
 		popCont.innerHTML = `
