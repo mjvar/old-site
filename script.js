@@ -83,7 +83,7 @@ function toggleProjectPopup(proj){
 					<img src="media/sakay-min.png">
 				</div>
 				<h1>Sakay.ph Transport Coverage Analysis</h1>
-				<h5><a href="https://https://blog.sakay.ph/transport-coverage-in-greater-manila-during-april-ecq/" target="_blank" class="projlink">link</a></h5>
+				<h5><a href="https://blog.sakay.ph/transport-coverage-in-greater-manila-during-april-ecq/" target="_blank" class="projlink">link</a></h5>
 				<p>
 					I spent the summer of 2020 as a Data Science intern at Sakay.ph. I used kepler.gl, Pandas, and SQL to build a data analysis toolkit for researchers and policymakers. I also used this tool for an exploratory research project visualizing transport coverage in Manila during COVID-19, which was published on the Sakay.ph data science blog.
 				</p>`;
