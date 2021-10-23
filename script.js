@@ -20,7 +20,7 @@ function toggleProjectPopup(proj){
 					<img src="media/eury.png">
 				</div>
 				<h1>Eurhythmce</h1>
-				<h5><a href="https://hatimb00.itch.io/eurhythmce" target="_blank" class="codelink">link</a></h5>
+				<h5><a href="https://hatimb00.itch.io/eurhythmce" target="_blank" class="codelink">itch page</a></h5>
 				<p>
 					Eurhythmce is a rhythm/puzzle game based on Greek mythology. Play as Eurydice as you stay on beat while you make the right moves and follow Orpheus out of hell! I served as lead Unity developer and level designer on the project.
 				</p>`;
@@ -41,7 +41,7 @@ function toggleProjectPopup(proj){
 					<img src="media/sonar-dj-min.png">
 				</div>
 				<h1>Sonar DJ</h1>
-				<h5><a href="https://www.youtube.com/watch?v=uY-fv90nOMc&feature=youtu.be" target="_blank" class="projlink">link</a> | <a href="https://github.com/mjvar/intro-to-interactive-media/tree/master/finalProject" target="_blank" class="codelink">code</a></h5>
+				<h5><a href="https://www.youtube.com/watch?v=uY-fv90nOMc&feature=youtu.be" target="_blank" class="projlink">video</a> | <a href="https://github.com/mjvar/intro-to-interactive-media/tree/master/finalProject" target="_blank" class="codelink">code and docs</a></h5>
 				<p>
 					Sonar DJ is an interactive electronic music installation made with Java, Processing, and Arduino. A sonar sensor constantly scans a mat in front of it. By placing different objects on the mat and moving them around, the user can trigger different sound loops and jam along to them live. The project also features audio visualizations using the Processing sound library.<br><br>This project was borne out of a desire I had to explore different tactile ways to make electronic music. I wanted to create something that felt responsive, and got people excited about making electronic music. 
 				</p>`;
@@ -51,7 +51,7 @@ function toggleProjectPopup(proj){
 					<img src="media/bullet-time-min.png">
 				</div>
 				<h1>Bullet Time</h1>
-				<h5><a href="https://infairvar.itch.io/bullet-time" target="_blank" class="projlink">link</a> | <a href="https://github.com/mjvar/intro-to-interactive-media/tree/master/midtermProject" target="_blank" class="codelink">code</a></h5>
+				<h5><a href="https://infairvar.itch.io/bullet-time" target="_blank" class="projlink">itch page</a> | <a href="https://github.com/mjvar/intro-to-interactive-media/tree/master/midtermProject" target="_blank" class="codelink">code</a></h5>
 				<p>
 					Bullet Time is a fast-paced bullet hell game where you can slow time. You pilot a ship (WASD/arrows) towards a portal, while dodging an onslaught of bullets from enemies. You can also use Slow (SPACE) to more precisely control your ship. This consumes a limited Slow Meter that slows both the bullets and your ship, allowing you to perfectly time and execute tight maneuvers. If you hold the button for too long, though, your Slow Meter depletes, which fast forwards the game back to normal speed.
 				</p>`;
@@ -61,7 +61,7 @@ function toggleProjectPopup(proj){
 					<img src="media/map-min.png">
 				</div>
 				<h1>Procedural Map Generation</h1>
-				<h5><a href="https://github.com/mjvar/intro-to-interactive-media/tree/master/September22" target="_blank" class="codelink">code & docs</a></h5>
+				<h5><a href="https://github.com/mjvar/intro-to-interactive-media/tree/master/September22" target="_blank" class="codelink">code and docs</a></h5>
 				<p>
 					I wrote a procedural map generation tool in Java that generates maps (for use in games, Dungeons & Dragons campaigns, etc.) from Voronoi tessellations. The system generates Voronoi tessellations and uses Manhattan distance calculations to emulate land features like islands and lakes.
 				</p>`;
@@ -83,7 +83,7 @@ function toggleProjectPopup(proj){
 					<img src="media/sakay-min.png">
 				</div>
 				<h1>Sakay.ph Transport Coverage Analysis</h1>
-				<h5><a href="https://blog.sakay.ph/transport-coverage-in-greater-manila-during-april-ecq/" target="_blank" class="projlink">link</a></h5>
+				<h5><a href="https://blog.sakay.ph/transport-coverage-in-greater-manila-during-april-ecq/" target="_blank" class="projlink">article</a></h5>
 				<p>
 					I spent the summer of 2020 as a Data Science intern at Sakay.ph. I used kepler.gl, Pandas, and SQL to build a data analysis toolkit for researchers and policymakers. I also used this tool for an exploratory research project visualizing transport coverage in Manila during COVID-19, which was published on the Sakay.ph data science blog.
 				</p>`;
@@ -93,7 +93,7 @@ function toggleProjectPopup(proj){
 					<img src="media/uwu-min.png">
 				</div>
 				<h1>Uwuify</h1>
-				<h5><a href="http://twitter.com/uwuify" target="_blank" class="projlink">link</a> | <a href="https://github.com/mjvar/uwuify" target="_blank" class="codelink">code</a></h5>
+				<h5><a href="http://twitter.com/uwuify" target="_blank" class="projlink">link (bot temporarily down)</a> | <a href="https://github.com/mjvar/uwuify" target="_blank" class="codelink">code</a></h5>
 				<p>
 					I wrote a Twitter bot that uwuifies tweets. Reply to any tweet with @uwuify and the bot will respond! The bot is written in Python and deployed on Heroku with Heroku Scheduler.
 				</p>`;
