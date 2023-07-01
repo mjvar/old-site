@@ -32,12 +32,12 @@ body{
 }
 
 .nav:hover{
-	color: rgb(240,240,240);
+	color: rgb(210,210,210);
 	text-shadow: 2px 2px black;
 }
 
 .nav.selected{
-	color: rgb(240,240,240);
+	color: rgb(200,200,200);
 	text-shadow: 2px 2px black;
 }
 
