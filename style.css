@@ -73,7 +73,9 @@ body{
 }
 
 canvas{
-	position: fixed !important;
+	width: 100vw;
+	height: 100vh;
+	z-index: -10000;
 }
 
 /*=====LANDING PAGE CSS=====*/
@@ -139,7 +141,7 @@ canvas{
 	padding: 2%;
 	width: 40%;
 	text-align: left;
-	background-color: rgba(250,250,250,0.5);
+	background-color: rgba(250,250,250,0.8);
 	border-radius: 1%;
 	line-height: 3vh;
 	border-style: dashed;

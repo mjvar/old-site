@@ -23,7 +23,7 @@ function setup(){
 	frameRate(60);
 	background(250);
 	minwh = min(width, height);
-	mAccelTotal = minwh*3; 
+	mAccelTotal = minwh*10; 
 } 
 
 function draw(){
@@ -49,11 +49,11 @@ function draw(){
 	mAccelTotal += mouseAccel;
 	// else {mAccelTotal += mouseAccel;}
 
-	for (let x = 1; x < minwh/2; x++) {
+	for (let x = 1; x < 100; x++) {
 		push();
 		rotate(noise(x/80)*mAccelTotal/1000 + frameCount/400);
 
-		let w = minwh*0.005*x;
+		let w = minwh*0.02*x;
 		polygon(0,0,w,8);
 		pop();
 	}
