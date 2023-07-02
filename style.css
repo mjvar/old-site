@@ -201,6 +201,10 @@ canvas{
 	align-items: flex-start;*/
 }
 
+.info-text{
+	font-size: 2vh;
+}
+
 .info a{
 	color: black;
 	-webkit-transition: all 0.3s ease;
