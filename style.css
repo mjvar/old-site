@@ -256,7 +256,7 @@ canvas{
 
 @media (max-width: 1000px) {
     .project{
-		width: 11vmax;
+		width: 13vmax;
 		margin: 0.2vmax;
 		padding: 0.2vmax;
 	}
@@ -300,7 +300,7 @@ h1{
 
 @media (max-width: 1000px) {
     .proj-text h4{
-		font-size: 2vh;
+		font-size: 1.4vh;
 	}
 }
 
