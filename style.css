@@ -243,7 +243,8 @@ canvas{
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     line-height: 0.5;
-	border-style: dotted;
+	border-style: solid;
+	border-width: 0.1vmin;
 	background-color: rgba(255,255,255, 0.5);
 }
 
