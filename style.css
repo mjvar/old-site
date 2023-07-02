@@ -161,6 +161,7 @@ canvas{
 	}
 
 	.par p{
+		line-height: 1.5vh;
 		font-size: 1.9vh;
 	}
 }
