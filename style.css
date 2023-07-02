@@ -252,27 +252,6 @@ h1{
 	font-size: 1.3vh;
 }
 
-/* .project.purp{
-	background-color: rgba(237, 88, 210, 0.5); 
-}
-.project.purp:hover{
-	background-color: rgba(237, 88, 210, 0.9); 
-}
-
-.project.blu{
-	background-color: rgba(41, 249, 255, 0.5); 
-}
-.project.blu:hover{
-	background-color: rgba(41, 249, 255, 0.9); 
-}
-
-.project.yell{
-	background-color: rgba(255, 251, 25, 0.5); 
-}
-.project.yell:hover{
-	background-color: rgba(255, 251, 25, 0.9); 
-} */
-
 .proj-img-container{
 	float: center;
 	margin-top: 5%;
@@ -293,6 +272,12 @@ h1{
 	margin-right: auto;
 	width: 14vmax;
 	line-height: 1;
+}
+
+@media (max-width: 1000px) {
+    .proj-text h4{
+		font-size: 3vh;
+	}
 }
 
 .project-popup{
@@ -360,6 +345,9 @@ h1{
 
 @media (max-width: 1000px) {
     .popup-container p{
+		font-size: 2vh;
+	}
+	.popup-container h5{
 		font-size: 2vh;
 	}
 }
