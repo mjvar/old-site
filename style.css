@@ -257,8 +257,8 @@ canvas{
 @media (max-width: 1000px) {
     .project{
 		width: 13vmax;
-		margin: 0.2vmax;
-		padding: 0.2vmax;
+		margin: 0.6vmax;
+		padding: 0.6vmax;
 	}
 }
 
@@ -365,6 +365,10 @@ h1{
 .popup-container p{
 	line-height: 3vh;
 	font-size: 1vw;
+}
+
+.popup-container h5{
+	text-decoration: underline;
 }
 
 @media (max-width: 1000px) {

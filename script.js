@@ -77,17 +77,6 @@ function toggleProjectPopup(proj){
 					A procedural map generation tool in Java that generates maps (for use in games, Dungeons & Dragons campaigns, etc.) from Voronoi tessellations. The system generates Voronoi tessellations and uses Manhattan distance calculations to emulate land features like islands and lakes.
 				</p>`;
 	}
-	else if(proj == "body"){
-		popCont.innerHTML = `
-				<div class="popup-img shrink">
-					<img src="media/body-min.png">
-				</div>
-				<h1>The Body at the Dorm Party</h1>
-				<h5><a href="https://mjvar.github.io/body-at-the-dorm-party" target="_blank" class="projlink">link</a> | <a href="https://github.com/mjvar/body-at-the-dorm-party" target="_blank" class="codelink">code</a></h5>
-				<p>
-					I worked on an interactive, video-based murder mystery with a group of 3 students. I used jQuery UI and p5.js to develop the website, and acted in some of the videos.
-				</p>`;
-	}
 	else if(proj == "sakay"){
 		popCont.innerHTML = `
 				<div class="popup-img">
@@ -109,27 +98,4 @@ function toggleProjectPopup(proj){
 					A Twitter bot that "uwuifies" tweets. Reply to any tweet with @uwuify and the bot will wespond wike this! :3 The bot is written in Python and deployed on Heroku with Heroku Scheduler. NOTE: Now unmaintained due to Twitter's API pricing. Thanks, Elon!
 				</p>`;
 	}
-	else if(proj == "days"){
-		popCont.innerHTML = `
-				<div class="popup-img">
-					<img src="media/days-min.png">
-				</div>
-				<h1>One of Those Days</h1>
-				<h5><a href="http://mjvar.github.io/one-of-those-days" target="_blank" class="projlink">link</a> | <a href="https://github.com/mjvar/one-of-those-days" target="_blank" class="codelink">code</a></h5>
-				<p>
-					One of Those Days is an interactive audio piece about mental health. It follows an unnamed protagonist on 2 contrasting days in an attempt to express the visceral lived experience of mental health struggles. For this project, I developed the website, wrote original music, and helped with audio editing.					
-				</p>`;
-	}
-	else if(proj == "qff"){
-		popCont.innerHTML = `
-				<div class="popup-img">
-					<img src="media/qff-min.png">
-				</div>
-				<h1>Quarantine Film Festival</h1>
-				<h5><a href="http://mjvar.github.io/qff" target="_blank" class="projlink">link</a> | <a href="https://github.com/mjvar/qff" target="_blank" class="codelink">code</a></h5>
-				<p>
-					I developed a website for a hypothetical online film festival. I was able to work on wireframes and interactivity with vanilla Javascript. For this website, I followed a minimalistic yet punchy design language. 
-				</p>`;
-	}
-
 }
