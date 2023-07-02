@@ -22,7 +22,7 @@ function toggleProjectPopup(proj){
 				<h1>Eurhythmce</h1>
 				<h5><a href="https://hatimb00.itch.io/eurhythmce" target="_blank" class="codelink">itch page</a></h5>
 				<p>
-					A rhythm/puzzle game based on Greek mythology. Play as Eurydice as you stay on beat while you make the right moves and follow Orpheus out of hell! I served as lead Unity developer and level designer on a team of 2.
+					A rhythm/puzzle game based on Greek mythology. Hop, skip, and puzzle-solve to the beat while following Orpheus out of hell! I served as lead Unity developer and level designer on a team of 2.
 				</p>`;
 	}
 	else if(proj == "bird"){
@@ -33,7 +33,7 @@ function toggleProjectPopup(proj){
 				<h1>Audibird</h1>
 				<h5><a href="http://audibird.glitch.me" target="_blank" class="projlink">link</a></h5>
 				<p>
-					A site for bird enthusiasts, powered by crowdsourced birdwatching data. Pick any place in the world, and Audibird shows you bird sounds from the most recently submitted birdwatching checklists in that area. Birdwatching data and metadata is queried live from eBird, xeno-canto, and WikiData.
+					A site for bird enthusiasts, powered by crowdsourced birdwatching data. Pick any place in the world, and Audibird shows you bird sounds from the most recently submitted birdwatching checklists in that area. Birdwatching and species data is queried live from eBird, xeno-canto, and WikiData.
 				</p>`;
 	}
 	else if(proj == "post"){
