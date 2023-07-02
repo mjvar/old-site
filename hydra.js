@@ -58,21 +58,23 @@ window.onload = function() {
     var circle4 = new LineCircle(p5.width/2+radius, p5.height/2+radius, numLines, radius);
 
     p5.hide();
-    p5.noFill();
 	// stay behind everything
 	p5.canvas.style.zIndex = -1000;
+
+    
+    p5.windowResized = ()=>{
+        p5.resizeCanvas(window.innerWidth, window.innerHeight);
+    }
+
     p5.draw = ()=>{
       p5.background(255,55);
-      p5.strokeWeight(2);
-      p5.stroke(0, 100);
-      circle1.display();
-      circle2.display();
-      circle3.display();
-      circle4.display();
-      smoothedMouseX+=(p5.mouseX-smoothedMouseX)*.1;
-      smoothedMouseY+=(p5.mouseY-smoothedMouseY)*.1;
+      p5.stroke(0);
+      p5.strokeWeight(100);
+      
+      p5.translate(p5.width/2,p5.height/2);
+      p5.ellipse(0,0,height/2,height/2);
     }
-    
+
     s0.init({src: p5.canvas})
 
     // hydra

@@ -8,7 +8,7 @@ body{
 }
 
 .static-bg{  
-	background-image: url('media/bgpic.png');
+	/* background-image: url('media/bgpic.png'); */
 	background-attachment: fixed;
 	background-size: 100% auto;
 	background-repeat: repeat;
@@ -84,9 +84,10 @@ canvas{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%);
+	width: 100%;
+	/* left: 50%; */
+	top: 1%;
+	/* transform: translate(-50%,0); */
 }
 
 .landing h1{
@@ -112,6 +113,10 @@ canvas{
 
 .landing p{
 	font-size: 2vh;
+}
+
+.landing.selected {
+	text-decoration: none;
 }
 
 .landing a{
@@ -150,7 +155,8 @@ canvas{
 @media (max-width: 1000px) {
     .par{
 		width: 80%;
-		height: 50%;
+		position: absolute;
+		top: 20%;
 	}
 }
 
@@ -195,19 +201,23 @@ canvas{
 	text-shadow: 0.1vh 0.05vh rgba(250,250,250,0.5);
 }
 
-/*.info-text{
-	width: 75%;
-	float: right;
-}*/
-
 /*=====PROJECT PAGE CSS=====*/
 .project-container{
-	/*padding-top: 5%;*/
+	padding-top: 5%;
 	width: 100%;
+	height: 80%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1000px) {
+    .project-container{
+		height: 60%;
+		top: 10%;
+		position: absolute;
+	}
 }
 
 .project{
@@ -344,6 +354,13 @@ h1{
 
 .popup-container p{
 	line-height: 3vh;
+	font-size: 1vw;
+}
+
+@media (max-width: 1000px) {
+    .popup-container p{
+		font-size: 2vh;
+	}
 }
 
 .popup-img{
