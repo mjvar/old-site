@@ -11,8 +11,8 @@ window.onload = function() {
     //P5
 
     p5.hide();
-	// stay behind everything
-	p5.canvas.style.zIndex = -1000;
+  	// stay behind everything
+	  p5.canvas.style.zIndex = -1000;
 
     
     p5.windowResized = ()=>{
@@ -23,9 +23,7 @@ window.onload = function() {
       p5.background(255,55);
       p5.stroke(0);
       p5.strokeWeight(height/10);
-      
-      p5.translate(p5.width/2,p5.height/2);
-      p5.ellipse(0,0,height/2.5,height/2.5);
+      p5.ellipse(p5.width/2,p5.height/2,height/2.5,height/2.5);
     }
 
     s0.init({src: p5.canvas})

@@ -54,6 +54,8 @@ body{
 	bottom: 1%;
 	transform: translate(-50%,-50%);
 	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .socials:hover {
