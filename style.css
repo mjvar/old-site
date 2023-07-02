@@ -318,7 +318,7 @@ h1{
 
 }
 .close:hover{
-	text-shadow: 2px 2px #bafdff;
+	text-shadow: 2px 2px rgb(100,100,100,0.6);
 }
 
 .popup-container{
@@ -381,10 +381,10 @@ h1{
 }
 
 .projlink:hover{
-	text-shadow: 1px 1px #ed58d2;
+	text-shadow: 1px 1px rgba(25,25,25,0.5);
 }
 .codelink:hover{
-	text-shadow: 1px 1px #fffd6b;
+	text-shadow: 1px 1px rgba(25,25,25,0.5);
 }
 
 

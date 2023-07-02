@@ -22,7 +22,7 @@ function toggleProjectPopup(proj){
 				<h1>Eurhythmce</h1>
 				<h5><a href="https://hatimb00.itch.io/eurhythmce" target="_blank" class="codelink">itch page</a></h5>
 				<p>
-					A rhythm/puzzle game based on Greek mythology. Play as Eurydice as you stay on beat while you make the right moves and follow Orpheus out of hell! I served as lead Unity developer and level designer on the project.
+					A rhythm/puzzle game based on Greek mythology. Play as Eurydice as you stay on beat while you make the right moves and follow Orpheus out of hell! I served as lead Unity developer and level designer on a team of 2.
 				</p>`;
 	}
 	else if(proj == "bird"){
@@ -31,9 +31,9 @@ function toggleProjectPopup(proj){
 					<img src="media/bird.png">
 				</div>
 				<h1>Audibird</h1>
-				<h5><a href="" target="_blank" class="projlink">link</a></h5>
+				<h5><a href="http://audibird.glitch.me" target="_blank" class="projlink">link</a></h5>
 				<p>
-					A site for bird lovers and the bird-interested. Click anywhere on the map to discover crowdsourced bird sounds from that part of the world. Birdwatching data is queried live from eBird, xeno-canto, and WikiData.
+					A site for bird enthusiasts, powered by crowdsourced birdwatching data. Pick any place in the world, and Audibird shows you bird sounds from the most recently submitted birdwatching checklists in that area. Birdwatching data and metadata is queried live from eBird, xeno-canto, and WikiData.
 				</p>`;
 	}
 	else if(proj == "post"){
@@ -44,7 +44,7 @@ function toggleProjectPopup(proj){
 				<h1>postcARds</h1>
 				<h5><a href="https://drive.google.com/file/d/119tV02MkFUYJfiSIOOA8xK15sLlA00Ks/view?usp=sharing" target="_blank" class="projlink">video</a></h5>
 				<p>
-					Developed in collaboration with the Museum für Kommunikation Berlin. Turns your phone into a 3D paintbrush; wielding it lets you add your own personal touches to the museum's historical postcards. I served as lead Unity developer on the project.
+					Developed in collaboration with the Museum für Kommunikation Berlin. Turns your phone into a 3D paintbrush; wielding it lets you add your own personal touches to the museum's historical postcards. I served as lead Unity developer and interaction designer on a team of 3.
 				</p>`;
 	}else if(proj == "sonar-dj"){
 		popCont.innerHTML = `
