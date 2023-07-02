@@ -52,7 +52,7 @@ body{
 	text-align: center;
 	left: 50%;
 	bottom: 0%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%,0);
 	width: 100%;
 }
 
