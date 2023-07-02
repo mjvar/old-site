@@ -159,6 +159,10 @@ canvas{
 		position: absolute;
 		top: 10%;
 	}
+
+	.par p{
+		font-size: 1.9vh;
+	}
 }
 
 .par img{
