@@ -110,7 +110,11 @@ canvas{
 	background-color: rgba(255,255,255,0.4);
 }
 
-
+@media (max-width: 1000px) {
+    .landing{
+		background-color: rgba(255,255,255,0.5);
+	}
+}
 
 .landing p{
 	font-size: 2vh;
