@@ -22,7 +22,7 @@ window.onload = function() {
     p5.draw = ()=>{
       p5.background(255,55);
       p5.stroke(0);
-      p5.strokeWeight(height/100);
+      // p5.strokeWeight(height/100);
       // p5.ellipse(p5.width/2,p5.height/2,height/2.5,height/2.5);
       p5.textSize(p5.height/2);
       p5.textFont('Montserrat');
