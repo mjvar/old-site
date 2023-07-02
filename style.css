@@ -56,15 +56,19 @@ body{
 	width: 100%;
 }
 
+.socials:hover {
+	background-color: rgba(255,255,255,0.4);
+}
+
 .socials img{
 	width: 3.5vh;
 	height: 3.5vh;
 	padding-left: 0.4%;
 	padding-right: 0.4%;
-	-webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+	-webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .socials img:hover{
@@ -73,6 +77,9 @@ body{
 }
 
 canvas{
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100vw;
 	height: 100vh;
 	z-index: -10000;
@@ -86,8 +93,11 @@ canvas{
 	position: absolute;
 	width: 100%;
 	/* left: 50%; */
-	top: 1%;
 	/* transform: translate(-50%,0); */
+	-webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
 }
 
 .landing h1{
@@ -96,20 +106,11 @@ canvas{
 	line-height: 0.9;
 }
 
-/* .landing h1:hover .first-m{
-	color: #ed58d2;
+.landing:hover {
+	background-color: rgba(255,255,255,0.4);
 }
 
-.landing h1:hover .first-v{
-	color: #fffd6b;
-} */
 
-/* .landing .first {
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-} */
 
 .landing p{
 	font-size: 2vh;
@@ -156,7 +157,7 @@ canvas{
     .par{
 		width: 80%;
 		position: absolute;
-		top: 20%;
+		top: 10%;
 	}
 }
 

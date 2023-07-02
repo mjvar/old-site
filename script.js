@@ -100,7 +100,7 @@ function toggleProjectPopup(proj){
 				</p>`;
 	}else if(proj == "uwu"){
 		popCont.innerHTML = `
-				<div class="popup-img shrink">
+				<div class="popup-img">
 					<img src="media/uwu-min.png">
 				</div>
 				<h1>Uwuify</h1>
