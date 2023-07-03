@@ -44,7 +44,7 @@ function toggleProjectPopup(proj){
 				<h1>algorave</h1>
 				<h5><a href="https://drive.google.com/file/d/1S25cm4qIoe3bqJGaddY5Ffy2wX57b4s8/view?usp=sharing" target="_blank" class="projlink">video</a></h5>
 				<p>
-					A live-coded EDM performance. Our team of 4 created reactive visuals using Hydra and music using Tidalcycles, then edited the source code live throughout the performance. I mainly worked on the composition and audio production.
+					A live-coded EDM performance. Our team of 4 created reactive visuals using Hydra and music using Tidalcycles. We then edited, rearranged, and chopped up the source code live throughout the performance. I mainly worked on the composition and audio production.
 				</p>`;
 	}
 	else if(proj == "post"){

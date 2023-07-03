@@ -65,8 +65,8 @@ body{
 	padding-bottom: 2%;
 	width: 3.5vh;
 	height: 3.5vh;
-	padding-left: 0.4%;
-	padding-right: 0.4%;
+	padding-left: 1%;
+	padding-right: 1%;
 	-webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
