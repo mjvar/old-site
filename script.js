@@ -36,6 +36,17 @@ function toggleProjectPopup(proj){
 					A site for bird enthusiasts, powered by crowdsourced birdwatching data. Pick any place in the world, and Audibird shows you bird sounds from the most recently submitted birdwatching checklists in that area. Birdwatching and species data is queried live from eBird, xeno-canto, and WikiData.
 				</p>`;
 	}
+	else if(proj == "live"){
+		popCont.innerHTML = `
+				<div class="popup-img">
+					<img src="media/live.jpg">
+				</div>
+				<h1>algorave</h1>
+				<h5><a href="https://drive.google.com/file/d/1S25cm4qIoe3bqJGaddY5Ffy2wX57b4s8/view?usp=sharing" target="_blank" class="projlink">video</a></h5>
+				<p>
+					A live-coded EDM performance. Our team of 4 created reactive visuals using Hydra and music using Tidalcycles, then edited the source code live throughout the performance. I mainly worked on the composition and audio production.
+				</p>`;
+	}
 	else if(proj == "post"){
 		popCont.innerHTML = `
 				<div class="popup-img">
