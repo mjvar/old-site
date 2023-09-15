@@ -38,7 +38,7 @@ window.onload = function() {
 
     osc(2,0.01,1).modulate(noise(3,0.1),1).out(o1)
 
-    src(o2).modulate(src(o1).add(solid(1,1),-0.5),()=>p5.map((p5.mouseX + p5.width/3),0,p5.width,0.0,-.008)).blend(src(o0),()=>p5.map((p5.mouseY + p5.height/3),p5.height,0,.4,-0.1)).out(o2)
+    src(o2).modulate(src(o1).add(solid(1,1),-0.5),()=>p5.map((p5.mouseX + p5.width/3),0,p5.width,0.-.001,-.01)).blend(src(o0),()=>p5.map((p5.mouseY + p5.height/3),p5.height,0,0.2,-0.1)).out(o2)
 
     src(o0).blend(o2,()=>Math.pow((p5.mouseX + p5.width/3)/p5.width,.5)).out(o3)
 
