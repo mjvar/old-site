@@ -53,7 +53,7 @@ function toggleProjectPopup(proj){
 					<img src="media/post.png">
 				</div>
 				<h1>postcARds</h1>
-				<h5><a href="https://drive.google.com/file/d/119tV02MkFUYJfiSIOOA8xK15sLlA00Ks/view?usp=sharing" target="_blank" class="projlink">video</a></h5>
+				<h5><a href="https://drive.google.com/file/d/1JE48zTnnVCq0TPngRxMizy3zDRwmQrDR/view?usp=sharing" target="_blank" class="projlink">video</a></h5>
 				<p>
 					Developed in collaboration with the Museum für Kommunikation Berlin. Turns your phone into a 3D paintbrush; wielding it lets you add your own personal touches to the museum's historical postcards. I served as lead Unity developer and interaction designer on a team of 3.
 				</p>`;
@@ -73,7 +73,7 @@ function toggleProjectPopup(proj){
 					<img src="media/bullet-time-min.png">
 				</div>
 				<h1>Bullet Time</h1>
-				<h5><a href="https://infairvar.itch.io/bullet-time" target="_blank" class="projlink">itch page</a> | <a href="https://github.com/mjvar/intro-to-interactive-media/tree/master/midtermProject" target="_blank" class="codelink">code</a></h5>
+				<h5><a href="https://infairvar.itch.io/bullet-time" target="_blank" class="projlink">itch page</a></h5>
 				<p>
 					A fast-paced bullet hell game where you can slow time. Shuttle cargo across the galaxy while dodging an inexplicable amount of bullets. By hitting SPACE to slow time, you can weave through even the most complex bullet patterns.
 				</p>`;
