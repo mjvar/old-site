@@ -55,7 +55,7 @@ function toggleProjectPopup(proj){
 				<h1>postcARds</h1>
 				<h5><a href="https://drive.google.com/file/d/1JE48zTnnVCq0TPngRxMizy3zDRwmQrDR/view?usp=sharing" target="_blank" class="projlink">video</a></h5>
 				<p>
-					Developed in collaboration with the Museum für Kommunikation Berlin. Turns your phone into a 3D paintbrush; wielding it lets you add your own personal touches to the museum's historical postcards. I served as lead Unity developer and interaction designer on a team of 3.
+					Developed in collaboration with the Museum für Kommunikation Berlin. postcARds allows users to remix the museum’s collection of historically significant postcards. Pieces from the collection are projected into larger-than-life scale, and users can wave around their smartphones as 3D paintbrushes to decorate the postcards in augmented reality. I served as lead Unity developer and interaction designer on a team of 3.
 				</p>`;
 	}else if(proj == "sonar-dj"){
 		popCont.innerHTML = `
